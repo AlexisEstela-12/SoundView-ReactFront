@@ -1,24 +1,19 @@
-import logo from './logo.svg';
 import './App.css';
+import LoginDash from './components/Login_view/LoginDash';
+import Logged from   './components/Logged_View/Logged';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <div className="App">
+        <Routes>
+          <Route path="/" element={<LoginDash />} />
+          <Route path="/logged" element={<Logged />} />
+        </Routes>
+      </div>
+    </Router>
   );
 }
 
