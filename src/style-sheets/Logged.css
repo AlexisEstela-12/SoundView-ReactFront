@@ -1,0 +1,31 @@
+.container-logged{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.request {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.column-songs{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    flex-wrap: wrap;
+    flex: 1 1
+}
+
+
+.column-artists{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    flex-wrap: wrap;
+    flex: 1 1
+}

@@ -1,0 +1,30 @@
+.container-big{
+    height: 600px;
+    width: 700px;
+    background-color: red;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    border-radius: 4rem;
+    background-image: url("/src/images/concierto.jpg");
+    background-size: cover;
+    background-position: center;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+h3 {
+    font-size: 2rem;
+    margin-top: 10px;
+}
+
+.title{
+    font-size: 4rem;
+}
+
+.spotify{
+    height: 110px;
+    width: 90px;
+}

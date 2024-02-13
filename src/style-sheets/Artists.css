@@ -1,0 +1,27 @@
+.artists{
+    width: 700px;
+    height: 375px;
+    display: flex;
+    flex-wrap: wrap;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    
+}
+
+h2{
+    font-size: 1.5rem;
+}
+
+span{
+    display: flex;
+
+}
+
+.image-artist{
+    height: 190px ;
+    width: 190px;
+    border-radius: 40px;
+}
