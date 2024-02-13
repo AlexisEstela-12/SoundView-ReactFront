@@ -3,10 +3,6 @@ import "../../style-sheets/Songs.css"
 
 function Songs ({index, name, popularity, duration_ms,img}){
 
-
-
-    
-
     return(
         <div className="songs">
             <h2 className="id">{index+1}</h2>
