@@ -1,8 +1,19 @@
 import React from "react";
 import "../../style-sheets/Songs.css"
 
-function Songs ({index, name, popularity, duration_ms,img}){
 
+/**
+ * 
+ * @param {string} are sent to the props function:
+*   index => is the order in the list of artists
+  * name => artist name
+  * popularitu => the popularity of the artist
+  * genre => the genre of the artist
+  * img => iamgen URL
+ * @returns 
+ */
+
+function Songs ({index, name, popularity, duration_ms,img}){
     return(
         <div className="songs">
             <h2 className="id">{index+1}</h2>

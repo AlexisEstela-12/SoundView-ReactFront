@@ -3,6 +3,9 @@ import "../../style-sheets/LoginDash.css"
 import LogoSpotify from "../../images/spotify.png"
 import Button from "../../components/Login_view/Button";
 
+
+
+// LogiDash is the view when you start the app
 function LoginDash(){
     const Login_URL = "http://localhost:3002/spotify"
     return(

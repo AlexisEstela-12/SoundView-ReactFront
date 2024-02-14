@@ -1,6 +1,16 @@
 import React from "react";
 import "../../style-sheets/Artists.css"
 
+/**
+ * 
+ * @param {string} are sent to the props function:
+*   index => is the order in the list of artists
+  * name => artist name
+  * popularitu => the popularity of the artist
+  * genre => the genre of the artist
+  * img => iamgen URL
+ * @returns 
+ */
 function Artists({index,name,popularity,genre,img}){
 
     return(
